@@ -1,0 +1,20 @@
+/*
+[类型]:需求开发
+[描述]:商城顶部栏样式实现
+[提交人]:Jason
+[时间]:2020年10月22日
+*/
+body,p,ul,ol,dl,dt,h1,h2,h3,h4,h5,h6,dl,dt,dd{
+	margin: 0;
+	padding: 0;
+}
+ul,ol{
+	list-style: none;
+}
+input{
+	border: none;
+	outline: none;
+}
+a{
+	text-decoration: none;
+}
