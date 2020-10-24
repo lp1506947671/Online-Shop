@@ -55,3 +55,87 @@ body{
     margin: 0 .5em;
 }
 /*小米底部栏样式结束*/
+/*小米导航栏开始*/
+.header{
+    height: 100px;
+
+}
+.header .site-logo{
+    float: left;
+    width: 62px;
+    margin-top: 22px;
+}
+.header .site-logo a{
+    display: block;
+    width: 56px;
+    height: 56px;
+}
+.header .site-list{
+    float: left;
+    width: 850px;
+}
+.header .site-list ul{
+    width: 820px;
+    height: 88px;
+    padding: 12px 0 0 30px ;
+    font-size: 16px;
+
+}
+.header .site-list ul li{
+     float: left;
+}
+.header .site-list ul li a{
+    display: block;
+    padding: 26px 10px 38px;
+    color: #333;
+
+}
+.header .site-list ul li a:hover{
+    color:#ff6700;
+}
+.header .site-list ul .site-category a{
+     padding: 0;
+}
+.header .site-search{
+    position: relative;
+    float:right;
+    width: 296px;
+    margin-top:25px ;
+}
+.header .site-search form{
+    width:296px;
+    height:  50px;
+}
+.header .site-search form .search-text{
+    width: 223px;
+    height: 48px;
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+    padding: 0 10px;
+    float: left;
+}
+.header .site-search form .search-btn{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+    float: left;
+    margin-left: -1px;
+}
+.header .site-search form .search_word{
+    position: absolute;
+    top:13px;
+    right: 60px;
+    font-size: 12px;
+}
+.header .site-search form .search_word a{
+    display: inline-block;
+    margin-left: 5px;
+    padding: 0 5px;
+    background-color: #eeeeee;
+    color: #775577;
+}
+.header .site-search form .search_word a:hover{
+    background-color: #ff6700;
+    color: #ffffff;
+}
+/*小米导航栏结束*/
