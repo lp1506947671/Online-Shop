@@ -74,32 +74,33 @@ body{
     float: left;
     width: 850px;
 }
-.header .site-list ul{
+.header .site-list>ul{
     width: 820px;
     height: 88px;
     padding: 12px 0 0 30px ;
     font-size: 16px;
 
 }
-.header .site-list ul li{
+.header .site-list>ul>li{
      float: left;
 }
-.header .site-list ul li a{
+.header .site-list>ul>li>a{
     display: block;
     padding: 26px 10px 38px;
     color: #333;
 
 }
-.header .site-list ul li a:hover{
+.header .site-list>ul>li>a:hover{
     color:#ff6700;
 }
-.header .site-list ul .site-category a{
+
+.header .site-list>ul .site-category>a{
      padding: 0;
 }
-.header .site-list ul li.site-category {
+.header .site-list>ul>li.site-category {
      position: relative;
 }
-.header .site-list ul li.site-category .category-list{
+.header .site-list>ul>li.site-category .category-list{
     position: absolute;
     width: 234px;
     height: 460px;
@@ -158,4 +159,30 @@ body{
 
 .site-content .site-slider a img{
     width: 1226px;
+}
+.category-list>ul{
+    width:  234px;
+    height:420px ;
+    padding: 20px 0;
+}
+.category-list>ul>li{
+    height: 42px;
+}
+.category-list>ul>li>a{
+    height: 42px;
+    padding-left:30px ;
+    display: block;
+    line-height: 42px;
+    font-size: 13px;
+    color: #ffffff;
+    position: relative;
+}
+.category-list>ul>li>a:hover{
+    background-color: #ff6700;
+}
+.category-list>ul>li>a>span{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 16px;
 }
