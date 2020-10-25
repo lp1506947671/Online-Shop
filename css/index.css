@@ -96,6 +96,17 @@ body{
 .header .site-list ul .site-category a{
      padding: 0;
 }
+.header .site-list ul li.site-category {
+     position: relative;
+}
+.header .site-list ul li.site-category .category-list{
+    position: absolute;
+    width: 234px;
+    height: 460px;
+    top:88px;
+    left:-92px;
+    background-color: rgba(0,0,0,0.6);
+}
 .header .site-search{
     position: relative;
     float:right;
@@ -139,3 +150,12 @@ body{
     color: #ffffff;
 }
 /*小米导航栏结束*/
+/*小米站点内容*/
+.site-content .site-slider a{
+    display: block;
+    width:1226px;
+}
+
+.site-content .site-slider a img{
+    width: 1226px;
+}
