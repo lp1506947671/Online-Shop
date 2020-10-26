@@ -99,6 +99,8 @@ body{
 }
 .header .site-list>ul>li.site-category {
      position: relative;
+        /*解决遮盖现象*/
+        z-index: 3;
 }
 .header .site-list>ul>li.site-category .category-list{
     position: absolute;
@@ -107,6 +109,32 @@ body{
     top:88px;
     left:-92px;
     background-color: rgba(0,0,0,0.6);
+}
+.category-list>ul{
+    width:  234px;
+    height:420px ;
+    padding: 20px 0;
+}
+.category-list>ul>li{
+    height: 42px;
+}
+.category-list>ul>li>a{
+    height: 42px;
+    padding-left:30px ;
+    display: block;
+    line-height: 42px;
+    font-size: 13px;
+    color: #ffffff;
+    position: relative;
+}
+.category-list>ul>li>a:hover{
+    background-color: #ff6700;
+}
+.category-list>ul>li>a>span{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 16px;
 }
 .header .site-search{
     position: relative;
@@ -152,7 +180,11 @@ body{
 }
 /*小米导航栏结束*/
 /*小米站点内容*/
-.site-content .site-slider a{
+.site-content .site-slider{
+    position: relative;
+    z-index: 2;
+}
+.site-content>.site-slider>a{
     display: block;
     width:1226px;
 }
@@ -160,29 +192,44 @@ body{
 .site-content .site-slider a img{
     width: 1226px;
 }
-.category-list>ul{
-    width:  234px;
-    height:420px ;
-    padding: 20px 0;
-}
-.category-list>ul>li{
-    height: 42px;
-}
-.category-list>ul>li>a{
-    height: 42px;
-    padding-left:30px ;
-    display: block;
-    line-height: 42px;
-    font-size: 13px;
-    color: #ffffff;
-    position: relative;
-}
-.category-list>ul>li>a:hover{
-    background-color: #ff6700;
-}
-.category-list>ul>li>a>span{
+.site-content .site-slider span{
     position: absolute;
-    top: 0;
-    right: 20px;
-    font-size: 16px;
+    width: 41px;
+    height: 69px;
+    background: url("../images/icon-slides.png") no-repeat 0 0;
+    top:50%;
+    margin-top: -35px;
+    cursor: pointer;
+}
+.site-content .site-slider span.prev{
+    background-position: -82px 0;
+    left:234px ;
+}
+.site-content .site-slider span.prev:hover{
+    background-position: 0 0;
+}
+.site-content .site-slider span.next{
+    background-position: -123px 0;
+    right: 0;
+}
+.site-content .site-slider span.next:hover{
+    background-position: -41px 0;
+}
+.site-content .slider-item{
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    bottom:20px;
+    right: 40px;
+}
+.slider-item>a{
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background-color:rgba(255,255,255,0.4);
+    margin: 0 5px;
+    border-radius: 6px;
+    border: 2px solid rgba(255, 255, 255, .3);
 }
