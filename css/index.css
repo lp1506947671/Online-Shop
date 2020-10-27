@@ -1,9 +1,3 @@
-/*
-[类型]:需求开发
-[描述]:商城顶部栏样式实现
-[提交人]:Jason
-[时间]:2020年10月24日
-*/
 body{
     font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
     color: #333;
@@ -238,6 +232,7 @@ body{
 .content-sub{
     margin-top: 12px;
     overflow: hidden;
+    margin-bottom: 30px;
 }
 /*向导左边*/
 .content-sub .content-channnel{
@@ -300,6 +295,12 @@ body{
     height: 120px;
 }
 /*小米向导样式结束*/
+/*小米内容描述*/
+.content-desc{
+    background-color: #f5f5f5;
+    padding-top: 20px;
+}
+/*小米内容描述结束*/
 .clearfix::after{
     content: "";
     clear:both;
