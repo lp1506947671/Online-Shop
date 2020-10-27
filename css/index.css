@@ -237,6 +237,7 @@ body{
 /*小米向导内容搭建*/
 .content-sub{
     margin-top: 12px;
+    overflow: hidden;
 }
 /*向导左边*/
 .content-sub .content-channnel{
@@ -284,6 +285,19 @@ body{
 .content-sub .content-list ul li a img{
     width: 316px;
     height: 170px;
+}
+/*banner图实现*/
+.content-banner{
+    margin-top: 18px;
+}
+.content-banner a{
+    display: block;
+    width:1226px ;
+    height: 120px;
+}
+.content-banner a img{
+    width:1226px ;
+    height: 120px;
 }
 /*小米向导样式结束*/
 .clearfix::after{
