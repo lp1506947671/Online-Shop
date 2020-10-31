@@ -300,6 +300,128 @@ body{
     background-color: #f5f5f5;
     padding-top: 20px;
 }
+/*内容详情标题*/
+.content-desc .box-hd{
+    height:58px;
+    position: relative;
+}
+.content-desc .box-hd h2{
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+}
+.content-desc .box-hd .more{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.content-desc .box-hd .more a{
+    font-size: 16px;
+    line-height:58px;
+    color: #424242;
+}
+.content-desc .box-hd .more:hover a{
+        color: #ff6700;
+}
+.content-desc .box-hd .more:hover a i{
+    background-color: #ff6700;
+}
+.content-desc .box-hd .more a i{
+    width: 12px;
+    height: 12px;
+    padding: 4px;
+    margin-left: 8px;
+    border-radius: 12px;
+    background-color: #b0b0b0;
+    font-size: 12px;
+    color: #ffffff;
+    vertical-align: 2px;
+}
+/*内容详情标题结束*/
+/*内容详情开始*/
+.box-bd .row-l{
+    float: left;
+    width: 234px;
+}
+.box-bd .row-r{
+    float: left;
+    width: 992px;
+}
+.box-bd .row-l a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.box-bd .row-l a img{
+    width: 234px;
+    height: 614px;
+}
+.box-bd .row-r ul{
+    overflow: hidden;
+}
+.box-bd .row-r ul li{
+    position: relative;
+    float: left;
+    height:260px ;
+    padding: 26px 0;
+    background-color: #ffffff;
+    width: 234px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+}
+.box-bd .row-r ul li .figure{
+    width: 160px;
+    height: 160px;
+    margin: 0 auto 18px;
+}
+.box-bd .row-r ul li .figure a{
+    display: block;
+}
+.box-bd .row-r ul li .figure a img{
+    width: 160px;
+    height: 160px;
+}
+.box-bd .row-r ul li .title{
+    font-size: 14px;
+    font-weight: 400;
+    text-align:center;
+}
+.box-bd .row-r ul li .title a{
+    color: #333;
+}
+.box-bd .row-r ul li .desc{
+    height: 18px;
+    font-size: 12px;
+    text-align: center;
+    color: #b0b0b0;
+    margin: 0 10px 10px;
+    overflow: hidden;
+    /*允许换行*/
+    white-space: nowrap;
+    /*文本出现省略号*/
+    text-overflow: ellipsis;
+
+}
+/*价格*/
+.box-bd .row-r ul li .price{
+    text-align: center;
+    color: #ff6700;
+}
+/*标签*/
+.box-bd .row-r ul li .flag{
+    position: absolute;
+    top:0;
+    left: 50%;
+    width: 64px;
+    height:20px ;
+    background-color: #83cc4e;
+    text-align: center;
+    color: #ffffff;
+    margin-left:-32px ;
+}
+/*内容详情结束*/
 /*小米内容描述结束*/
 .clearfix::after{
     content: "";
