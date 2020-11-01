@@ -507,6 +507,40 @@ border-left: 0;
     background-color: #ff6700;
     color: #ffffff;
 }
+/*侧边栏开始*/
+.site-bar{
+    position: fixed;
+    width: 27px;
+    height: 160px;
+    bottom: 100px;
+    right: 50%;
+    margin-right: -760px;
+}
+.site-bar ul{
+
+}
+.site-bar ul li{
+    width: 25px;
+    height:39px;
+    border:1px solid #f5f5f5;
+    background-color: #fff;
+    border-top:none;
+}
+.site-bar ul li.site-bar-first{
+    border-top:1px solid #f5f5f5;
+}
+.site-bar ul li a{
+    display: block;
+    width: 20px;
+    height:20px;
+    padding-top: 9px;
+    margin-left: 2px;
+}
+.site-bar ul li a img{
+     width: 20px;
+    height:20px;
+}
+/*侧边栏结束*/
 /*小米的脚部样式结束*/
 /*小米内容描述结束*/
 .clearfix::after{
